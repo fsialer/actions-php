@@ -1,0 +1,10 @@
+name: Laravel CI 2
+
+on: [push]
+
+jobs:
+  laravel-test2:
+      runs-on: self-hosted
+      steps:
+        - name: Ls
+          run: ls -al

@@ -39,6 +39,8 @@ jobs:
             #  run: ls
             - name: Artifac
               uses: actions/upload-artifact@v3
+              #En el if se puede usar success(), 
+              #if:failure()  
               with:
                 name: artifacts
                 path: composer.json
